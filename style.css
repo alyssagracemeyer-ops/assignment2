@@ -1,0 +1,96 @@
+body {
+  background-color: midnightblue;
+  color: white;
+  text-align: center;
+  font-family: "Quicksand", system-ui;
+}
+
+main {
+  padding-top: 100px;
+}
+
+h1 {
+  height: 50px;
+  line-height: 50px;
+  padding: 10px 10px 10px 10px;
+  background-color: black;
+  color: red;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 100%;
+  text-shadow: 3px 3px 0 maroon;
+}
+
+footer {
+  height: 50px;
+  line-height: 50px;
+  background-color: black;
+  color: red;
+  font-weight: bold;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.shade {
+  text-shadow: 3px 3px 0 maroon;
+}
+
+nav,
+div {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+.first {
+  background-color: aliceblue;
+  padding: 5px 5px 5px 5px;
+  outline: 5px solid black;
+}
+
+.first:hover {
+  background-color: pink;
+}
+
+.second {
+  background-color: aliceblue;
+  padding: 5px 5px 5px 5px;
+  outline: 5px solid black;
+}
+
+.second:hover {
+  background-color: pink;
+}
+
+ol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 16px;
+}
+.link1 {
+  background-color: aliceblue;
+  padding: 5px 5px 5px 5px;
+  outline: 5px solid black;
+}
+.link1:hover {
+  background-color: pink;
+}
+
+.link2 {
+  background-color: aliceblue;
+  padding: 5px 5px 5px 5px;
+  outline: 5px solid black;
+}
+
+.link2:hover {
+  background-color: pink;
+}
